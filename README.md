@@ -1,2 +1,2 @@
 # htlmcssjavascript
- aprendendo ahtml5/css3/javascript
+ aprendendo html5/css3/javascript
