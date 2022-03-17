@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTVLogin</title>
+    <style>
+        body{
+
+            background-color: black;
+        }
+        h1{                     color: blue;
+                                position: absolute;
+                                width: 500px;
+                                left: 400px;
+                                text-shadow: 4px 4px 3px white;
+                                font-size: 60px;
+                            }
+        label{
+            color:white;
+            font-size: 30px;
+            text-shadow: 4px 2px 2px blue ;
+        }
+        input{
+            border-radius: 8px;
+        }
+        div{
+          background-color:  grey;
+         
+            position: relative;
+            width: 350px;
+            top:150px;
+            left: auto;
+            margin:auto;
+            border-radius: 20px;
+            padding: 40px;
+        }
+        button{
+            position: relative;
+            color: blue;
+            background-color: white;
+            padding: 5px;
+            text-decoration: none;
+          
+            border-radius: 15px;
+            border: 2px solid blue;
+            padding: 6px;
+            margin: auto;
+
+        }
+        a:hover{
+            color: white;
+            background-color: blue;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CrispimDev Filmes</h1>
+    <div>
+    <form action="post" name="flogin">
+                    <label for="Usuário">Usuário</label> <br>
+                    <input type="text" value="" width="50px" placeholder="usuário"><br>
+                    <label for="Senha">Senha</label><br>
+                    <input type="password"> <br><br>
+                    <button onclick="conferirusuario"> Entrar</button>
+    </form>
+    
+</div>
+</body>
+</html>
