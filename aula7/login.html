@@ -66,14 +66,28 @@
     <h1>CrispimDev Filmes</h1>
     <div>
     <form action="post" name="flogin">
-                    <label for="Usuário">Usuário</label> <br>
-                    <input type="text" value="" width="50px" placeholder="usuário"><br>
-                    <label for="Senha">Senha</label><br>
-                    <input type="password"> <br><br>
-                    <a href="index.html"> Entrar</button>
+                    <label>Usuário</label> <br>
+                    <input id="nome" type="text"><br>
+                    <label >Senha</label><br>
+                    <input id="Senha" type="password"> <br><br>
+                    <a id="link" onclick="valida()" href="index.html"> Entrar </a>
                   
     </form>
-    
+    <script>
+        var n ="";
+        var p ="";
+        function valida(){
+       var n = document.getElementById("nome").value;
+       var p =document.getElementById("Senha").value;
+       if((n=="jacqueline")&&(p=="170787")){
+       alert("Bem vinda " + n);}
+       else{
+          
+           document.getElementById("link").setAttribute.url="href=login.html";
+           alert("Usuario ou Senha errados");
+    }
+    }
+    </script>
 </div>
 </body>
 </html>
