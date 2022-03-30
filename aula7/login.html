@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CTVLogin</title>
+    <title>CrispimDevFilmesLogin</title>
     <style>
         *{
             top: 0px;
@@ -80,11 +80,13 @@
        var n = document.getElementById("nome").value;
        var p =document.getElementById("Senha").value;
        if((n=="jacqueline")&&(p=="170787")){
-       alert("Bem vinda " + n);}
+       alert("Bem vinda " + n);
+     window.open("index.html")}
        else{
           
-           document.getElementById("link").setAttribute.url="href=login.html";
+          
            alert("Usuario ou Senha errados");
+           window.open("login.html")
     }
     }
     </script>
