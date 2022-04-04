@@ -41,7 +41,7 @@
             border-radius: 20px;
             padding: 40px;
         }
-        a{
+        button{
             position: relative;
             color: blue;
             background-color: white;
@@ -54,7 +54,7 @@
             margin: auto;
 
         }
-        a:hover{
+        button:hover{
             color: white;
             background-color: blue;
             padding: 6px;
@@ -70,25 +70,27 @@
                     <input id="nome" type="text"><br>
                     <label >Senha</label><br>
                     <input id="Senha" type="password"> <br><br>
-                    <a id="link" onclick="valida()" href="index.html"> Entrar </a>
+                   
+                    <button onclick="valida()">Entrar</button>
                   
     </form>
     <script>
         var n ="";
         var p ="";
-        function valida(){
+       function valida(){
        var n = document.getElementById("nome").value;
        var p =document.getElementById("Senha").value;
+   
        if((n=="jacqueline")&&(p=="170787")){
-       alert("Bem vinda " + n);
+       alert("Bem vinda " + n + " Ao Maior Site de Filmes");
      window.open("index.html")}
        else{
-          
-          
            alert("Usuario ou Senha errados");
-           window.open("login.html")
+          
     }
     }
+
+
     </script>
 </div>
 </body>
