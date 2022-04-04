@@ -59,11 +59,19 @@
             background-color: blue;
             padding: 6px;
         }
+        img{
+    position:relative;
+    width: 200px;
+    height: 60px;
+    margin-bottom: -80px;
+    top: 30px;
+    left: 350px;
+}
     </style>
 </head>
 <body>
 
-    <h1>CrispimDev Filmes</h1>
+    <img src="cflogo.png" alt="logo crispimflix">
     <div>
     <form action="post" name="flogin">
                     <label>Usuário</label> <br>
@@ -81,7 +89,7 @@
        var n = document.getElementById("nome").value;
        var p =document.getElementById("Senha").value;
    
-       if((n=="jacqueline")&&(p=="170787")){
+       if((n=="jacqueline")&&(p=="1")){
        alert("Bem vinda " + n + " Ao Maior Site de Filmes");
      window.open("index.html")}
        else{
